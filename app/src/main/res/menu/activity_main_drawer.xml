@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_leaderboard"
+            android:icon="@drawable/icons8_trophy_64"
+            android:title="Leaderboard" />
+        <item
+            android:id="@+id/nav_myPlant"
+            android:icon="@drawable/icons8_potted_plant_200"
+            android:title="My Plant" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/icons8_line_chart_128"
+            android:title="My Stats" />
+        <item
+            android:id="@+id/nav_devices"
+            android:icon="@drawable/icons8_apple_watch_50"
+            android:title="My Devices" />
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@drawable/ic_baseline_login_24"
+            android:title="Log in" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_baseline_person_24"
+            android:title="Profile" />
+
+
+    </group>
+    <group>
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/icons8_automation_50"
+            android:title="Settings" />
+        <item
+            android:icon="@drawable/icons8_help_64"
+            android:title="Help" />
+        <item
+            android:icon="@drawable/icons8_email_send_80"
+            android:title="Send Feedback" />
+    </group>
+</menu>

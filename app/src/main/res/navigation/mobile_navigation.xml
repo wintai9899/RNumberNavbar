@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_leaderboard">
+
+
+    <fragment
+        android:id="@+id/nav_myPlant"
+        android:name="com.example.rnumbernavbar.ui.gallery.GalleryFragment"
+        android:label="Barry"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.rnumbernavbar.ui.slideshow.SlideshowFragment"
+        android:label="My Activities"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_devices"
+        android:name="com.example.rnumbernavbar.ui.devices.DevicesFragment"
+        android:label="My Devices"
+        tools:layout="@layout/fragment_devices" />
+
+    <fragment
+        android:id="@+id/nav_leaderboard"
+        android:name="com.example.rnumbernavbar.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_login"
+        android:name="com.example.rnumbernavbar.loginFragment"
+        android:label="Log in"
+        tools:layout="@layout/login" />
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.rnumbernavbar.profilefragment"
+        android:label="My Profile"
+        tools:layout="@layout/profile" />
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.example.rnumbernavbar.SettingsFragment"
+        android:label="Settings"
+        tools:layout="@layout/settings" />
+
+</navigation>
